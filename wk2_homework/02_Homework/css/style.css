@@ -1,0 +1,60 @@
+body {	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+}
+
+blockquote {
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+blockquote span {
+	font-weight: 600;
+	text-align: right;
+	font-style: normal;
+	margin: 0;
+}
+
+button {
+	border-radius: 5px;
+	font-weight: 800;
+	font-size: 14px;
+	margin-bottom: 24px;
+}
+
+button.small {
+    font-size: 12px;
+}
+
+footer {
+	font-size: 9px;
+	font-weight: 600; /* Semi-bold */
+}
+
+h1, h2 {
+	font-size: 24px;
+}
+
+h1 {
+	font-weight: 800; /* Extra-bold */
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600; /* Semi-bold */
+}
+
+h2.action-item {
+	font-size: 24px;
+}
+
+p, ul {
+	font-size: 13px;
+	font-weight: 300; /* Light */
+}
+
+.perks {
+    background-color: #f0efef;
+    padding: 2px 24px 24px;
+}

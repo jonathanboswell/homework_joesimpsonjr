@@ -1,0 +1,135 @@
+body {
+	background-color: #333;
+	font-size: 16px;
+    margin: 3%;
+}
+
+div {
+    padding: 18px;
+    margin-bottom: 4%;
+}
+
+footer.box {
+    background-color: #000;
+	color: #fff;
+    height: 50px;
+    padding: 45px 3% 15px; 
+}
+
+header h1 {
+    font-size: 1em;
+}
+
+header, footer {
+    margin: 0 0 3%;
+}
+
+
+header.masthead {
+    height: 130px;
+}
+
+li {
+    color: #000;
+    background-color: #FFF;
+    font-size: .8em;
+    float: left;
+    margin-left: 24px;
+    margin-top: 5%;
+    padding: 12px;
+    width: 11.1382%;
+}
+
+ul.menu {
+    list-style-type: none;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px; 
+}
+
+#r2c1, #r2c3, .featured-ad {
+    width: 27.593%;
+    height: 125px;
+    background-color: #666;
+    float: left;
+    margin-bottom: 4%;
+}
+
+#r3c1, #r3c2, #r3c3, #r3c4 {
+    background-color: #222;
+    width: 19.071%;
+    float: left;
+    height: 175px;
+    color: #FFF;
+}
+
+#r3c1, #r3c2, #r3c3 {
+    margin-right: 3%;
+}
+
+#r2c1, .sidebar {
+    margin-right: 3%;
+}
+
+#r2c1, #r2c2 {
+    height: 315px;
+}
+
+#r2c1 {
+	width: 73.3272%;
+}
+
+#r2c2 {
+    background-color: #666;
+    float: right;
+    height: 328px!important;
+    margin-bottom: 4%;
+    margin-right: 0;
+    width: 15.088%;
+}
+
+.clearFloat {
+	clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.featured-ad {
+    float: left;
+    width: 78.5013%;
+}
+
+.featured-img {
+    background-color: #EEE;
+    padding: 24px;
+    height: 400px;
+    margin-bottom: 4%;
+}
+
+.group {
+    float: left;
+    width: 81.5013%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.logo {
+    background-color: #FFF;
+    width: 200px;
+    height: 125px;
+    margin-right: 78px;
+    float: left;
+}
+
+.sidebar {
+    float: left;
+    height: 790px;
+    width: 150px;
+}
+
+.sidebar, .featured-ad {
+    background-color: #CCC;
+}

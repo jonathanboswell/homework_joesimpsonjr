@@ -1,0 +1,141 @@
+/* Remove height and BODY > BACKGROUND-COLOR in final designs */
+
+body {
+	background-color: #333;
+	font-size: 16px;
+    margin: 3%;
+}
+
+header h1 {
+    font-size: 1em;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1024px;
+}
+
+#r2c1, #r2c2, #r3c1, #r3c2, #r3c3 {
+	float: left;
+	margin: 0;
+	padding: 18px;
+}
+
+#r2c1, #r2c2 {
+    background-color: #DDD;
+    color: #000;
+    height: 450px;
+    width: 42.834%;
+}
+
+#r3c1, #r3c2, #r3c3 {
+    background-color: #999;
+    color: #fff;
+	height: 100px;
+    width: 25.51116%;
+}
+
+#r2c1, #r2c2, #r3c1, #r3c2, #r3c3, header {
+	margin-bottom: 28px;
+	padding: 3%;	
+}
+
+#r2c1, #r3c1, #r3c2 {
+	margin-right: 28px;
+}
+
+footer.box {
+    background-color: #666;
+    color: #fff;
+    height: 50px;
+    padding: 45px 3% 15px; /* vertical align type */
+}
+
+header {
+	background-color: #EEE;
+	border: none;
+	font-size: 2em;
+	padding: 18px;
+}
+
+.clearFloat {
+	clear: both;
+}
+
+/* ------------ Media Queries ----------- */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 16.1 Mobile Large 620px
+ */
+
+@media screen and (min-width: 38.75em) {
+    #r2c1, #r2c2, #r3c1, #r3c2, #r3c3, footer, header { background-color: red; padding: 3%; margin: 5%; }
+}
+
+/**
+ * 16.2 Tablet Small 740px
+*/ 
+
+@media screen and (min-width: 46.25em) {
+
+/**
+ * 16.3 Tablet Large 880px
+ */
+
+@media screen and (min-width: 55em) {
+    #r2c1, #r2c2, #r3c1, #r3c2, #r3c3, footer, header { background-color: yellow; padding: 3%; margin: 5%; }
+}
+/**
+ * 16.4 Desktop Small 955px
+ */
+
+@media screen and (min-width: 59.6875em) {
+
+/**
+ * 16.5 Desktop Medium 1100px
+ */
+
+@media screen and (min-width: 68.75em) {
+
+/**
+ * 16.6 Desktop Large 1240px
+ */
+
+@media screen and (min-width: 77.5em) {
+
+/**
+ * 16.7 Desktop X-Large 1403px
+ */
+
+@media screen and (min-width: 87.6875em) {
+    #r2c1, #r2c2, #r3c1, #r3c2, #r3c3, footer, header { background-color: pink; padding: 3%; margin: 5%; }
+}
+/*
+@media only screen and (min-width: 500px) {
+
+	body { margin: 0; }
+
+    #r2c1, #r2c2, #r3c1, #r3c2, #r3c3, footer, header { padding: 3%; margin: 5%; }
+
+    #r2c1, #r2c2, #r3c1, #r3c2, #r3c3 { font-size: 3em; padding: 3%; margin: 5%; }
+
+    #r2c1, #r2c2 { background-color: #CCC; color: #000; height: 350px; }
+
+    #r3c1, #r3c2, #r3c3 { background-color: #999; color: #FFF; height: 175px; }
+
+    footer { background-color: #666; color: #FFF; font-size: 1.5em; }
+
+    header { background-color: #EEE; color: #000; }
+
+    header h1 { font-size: 4em; }
+
+}

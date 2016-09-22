@@ -1,0 +1,55 @@
+/*h1 {
+	border: 1px solid black;
+}*/
+
+#container {
+	/* border: 1px solid blue;*/
+	height: 400px;
+	width: 100%;
+}
+
+#leftColumn, #rightColumn {
+	padding: 18px;
+}
+
+#leftColumn {
+	height: 95%;
+	width: 75.6%;
+	float: left;
+}
+
+#rightColumn {
+	height: 95%;
+	width: 16.5%;
+	float: left;
+	background-color: #ccc;
+}
+
+.box {
+	background-color: grey;
+	color: black;
+/*		border: 2px solid black;
+border-radius: 8px; */
+	margin: 10px;
+}
+
+footer.box {
+    height: 50px;
+    padding: 45px 12px 15px;
+}
+
+header.box {
+	background-color: #999;
+	color: #fff;
+	border: none;
+	padding: 18px;
+	font-size: 20px;
+}
+
+header.box h1 {
+	border: none;
+}
+
+.clearFloat {
+	clear: both;
+}
