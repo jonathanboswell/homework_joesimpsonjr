@@ -1,35 +1,64 @@
 body {	
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;	
+	background-color: #333;
 }
 
 blockquote {
-	font-size: 18px;
-	font-weight: 300;
-	font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    padding: 5% 37.5%;
+    line-height: 1.5;
 }
 
-blockquote span {
-	font-weight: 600;
-	text-align: right;
-	font-style: normal;
-	margin: 0;
+blockquote p {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
 }
 
 button {
+    border: none;
 	border-radius: 5px;
 	font-weight: 800;
 	font-size: 14px;
 	margin-bottom: 24px;
+    padding: 7px 30px;	
 }
 
-button.small {
+button.yellow {
+    background-color: #f9e42e; /* Yellow */
+    margin-top: 36px;
+}
+
+button.dark-blue {
     font-size: 12px;
+    background-color: #033048; /* Dark Blue */
+    color: #FFF;
 }
 
 footer {
+	color: #FFF;
+	background-color: #121212;
 	font-size: 9px;
 	font-weight: 600; /* Semi-bold */
+	height: 200px;
+	text-align: center;
+}
+
+footer h1, footer p, footer img {
+    padding-top: 36px;
+}
+
+footer h1 {
+    color: #f9e42e;
+}
+
+footer img {
+    padding: 24px 14px 0;
+    height: 24px;
 }
 
 h1, h2 {
@@ -38,6 +67,11 @@ h1, h2 {
 
 h1 {
 	font-weight: 800; /* Extra-bold */
+	margin: 0;
+}
+
+h1.title {
+    padding-top: 40px;
 }
 
 h2 {
@@ -45,8 +79,24 @@ h2 {
 	font-weight: 600; /* Semi-bold */
 }
 
-h2.action-item {
-	font-size: 24px;
+h2.audience-engagement {
+    font-size: 24px;
+    margin-top: 130px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+header {
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 485px;
+}
+
+li {
+    list-style-type: disc;
+    line-height: 2;
 }
 
 p, ul {
@@ -54,7 +104,39 @@ p, ul {
 	font-weight: 300; /* Light */
 }
 
+#main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.info {
+   padding: 0 5%;
+}
+
 .perks {
+    color: #606161;
     background-color: #f0efef;
-    padding: 2px 24px 24px;
+    padding: 2% 5%;
+}
+
+.perks h2 {
+    color: #121212;
+}
+
+.subscribe {
+    text-align: center;
+    background-color: #f9e42e;
+    padding: 18px 0 0;
+}
+
+.testimonial {
+    height: 260px;
+    background-image: url(../images/testimonial_bg.jpg);
+    background-size: cover;
+    color: #FFF;
 }
