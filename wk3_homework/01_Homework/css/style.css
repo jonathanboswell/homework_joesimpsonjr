@@ -1,0 +1,94 @@
+body {
+	background-color: #DDD;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+#main-container {
+    background-color: #f0efef;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    top: 1.667em;
+}
+
+#menu {
+    background-color: #033048;
+    color: #FFF;
+    font-size: 1em; /* 24px */
+    font-weight: 700;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#sidebar {
+    width: 10em;
+    float: left;
+}
+
+h1 {
+    font-size: 1.667em; /* 40px */
+    margin: 0.67em 0;
+}
+
+nav#navigation {
+    float: right;
+    margin-right: 20%;
+}
+
+nav ul li a {
+    color: #f9e42e;
+    font-weight: normal;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 0.750em;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+nav ul li {
+    float: left;
+    padding-right: 12px;
+}
+
+.more {
+    font-size: 1em;
+    font-weight: bolder;
+    font-weight: 600;
+    text-align: right;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+    font-weight: light;
+}
+
+p.logotype {
+    float: left;
+    margin-left: 20%;
+}
+
+p.logotype, .story h1 {
+	font-weight: bolder;	
+	font-weight: 600;
+}
+
+.blog-entries {
+    float: left;
+    width: 29.167em;
+    margin-right: .833em; /* 20px */
+}
+
+.content {
+    margin: 1.3em 5em 0;
+}
+
+.clearFloat {
+	clear: both;
+}
