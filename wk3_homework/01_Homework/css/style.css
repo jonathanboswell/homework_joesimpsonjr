@@ -177,6 +177,10 @@ span.drop-cap {
     text-decoration: none;
 }
 
+.more a:hover, a.more.learn:hover {
+    text-decoration: underline;
+}
+
 .story {
     border-bottom: 1px solid #333;
     padding-bottom: 1.7em;
