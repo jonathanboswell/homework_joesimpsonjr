@@ -1,3 +1,13 @@
+/* 
+
+(01) Blog Home Page
+(02) About Page
+
+*/
+
+
+/* --------------- (01) Blog Home Page --------------- */
+
 a.more.learn {
     color: #121212;
     font-weight: 600;
@@ -231,4 +241,54 @@ span.drop-cap {
     line-height: 1.3;
 }
 
+/* --------------- (02) About Page --------------- */
+
+blockquote {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    padding: 5% 37.5%;
+    line-height: 1.5;
+}
+
+blockquote p {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+header {
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 485px;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.info {
+   padding: 0 5%;
+}
+
+.perks {
+    color: #606161;
+    background-color: #f0efef;
+    padding: 2% 5%;
+}
+
+.perks h2 {
+    color: #121212;
+} 
+
+.testimonial {
+    height: 260px;
+    background-image: url(../images/testimonial_bg.jpg);
+    background-size: cover;
+    color: #FFF;
+}
 
