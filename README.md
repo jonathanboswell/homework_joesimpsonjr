@@ -4,6 +4,7 @@ This repository contains General Assembly Los Angeles Front End Web Development 
 
 | Date                 | Description                                        |
 | Week 1, September 10 | Basics                                             |
+| -------------------- | -------------------------------------------------- |
 |                      | Tags, Boxes and Nested Selectors                   |
 | Week 2, September 17 | Styling                                            |
 |                      | Box Model, Layout and Assignment                   |
