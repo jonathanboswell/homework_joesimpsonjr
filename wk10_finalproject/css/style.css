@@ -32,6 +32,15 @@
   #section43 {padding:50px;color: #fff; background-color: #333;}
   #section44 {padding:50px;color: #fff; background-color: #666;}
 
+  /* Bootstap Overrides */
+
+  span.btn-clipboard.btn-clipboard-hover {
+    background: #FFF;
+    border-radius: 3px;
+    padding: 0.5em;
+    color: #000;
+    float: right;
+  }
 
   .btn-danger:hover {
       color: #fff;
@@ -71,4 +80,13 @@
 
   .navbar-inverse .navbar-nav>li>a {
     color: #d6a802;
+  }
+
+  .well {
+    background-color: #333;
+    border: 2px solid #FFF;
+    border-radius: 12px;
+    font-size: 1.2em;
+    margin-top: 1em;
+    padding: 48px;
   }

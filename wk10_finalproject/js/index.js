@@ -1,4 +1,4 @@
- /* Smooth scroll from CSS Tricks */
+/* Smooth scroll from CSS Tricks */
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
